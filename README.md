@@ -10,8 +10,10 @@
 | [Sound Blaster Cinema 2](https://www.creative.com/oem/products/software/cinema2.asp) | [*SBC2_2020.7z ![Github all releases](https://img.shields.io/github/downloads/shibajee/realtek-uad-creative-legacy-mod/total.svg)](https://github.com/shibajee/realtek-uad-creative-legacy-mod/releases) | [Download](https://github.com/shibajee/realtek-uad-creative-legacy-mod/raw/master/Archives/Software/SBC2-OEM1D-3-11.rar) | [Download](https://github.com/shibajee/realtek-uad-creative-legacy-mod/raw/master/Archives/GenKGA/GenKGA.rar) | [Download](https://github.com/shibajee/realtek-uad-creative-legacy-mod/raw/master/Archives/Software/RtkUWP.rar) |
 | [Sound Blaster Cinema 3](https://www.creative.com/oem/products/software/cinema3.asp) | [*SBC3_2020.7z ![Github all releases](https://img.shields.io/github/downloads/shibajee/realtek-uad-creative-legacy-mod/total.svg)](https://github.com/shibajee/realtek-uad-creative-legacy-mod/releases) | [Download](https://github.com/shibajee/realtek-uad-creative-legacy-mod/raw/master/Archives/Software/SBC3-OEM1D-1-11.rar) | [Download](https://github.com/shibajee/realtek-uad-creative-legacy-mod/raw/master/Archives/GenKGA/GenKGA.rar) | [Download](https://github.com/shibajee/realtek-uad-creative-legacy-mod/raw/master/Archives/Software/RtkUWP.rar) |
 
+**[mirror link](https://cloud.disroot.org/s/qJdSEiYnPMfA2KW)
+
 ## Instructions:
-- Uninstall current realtek audio driver, if possible use [DDU](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=2747) for clean uninstallation.
+- Uninstall current realtek audio driver, if possible use [DDU](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=2747) for clean driver uninstallation.
 
 - Restart ur PC with Disable driver signature enforcement:
 
@@ -21,7 +23,7 @@ Now go to Troubleshoot > Advanced options > Startup Settings > click Restart
 
 After the restart u will get a Startup Settings page, press F7 to go into disable driver signature enforcement.
 
-- Extract downloaded realtek driver "*_THX_2020.7z or *_MB5_2020.7z or *_SBC3_2020.7z" and double click Setup.exe
+- Extract downloaded realtek driver (.7z archive) and double click Setup.exe
 
 ![alt text](https://i.postimg.cc/9QDrtMSq/Untitled-2.png)
 
@@ -35,7 +37,7 @@ Go to Settings > Update & Security > For developers > click Sideload apps and cl
 
 - Restart ur PC
 
-- Extract creative softwares TAMB-GBS1D-4-LB or XMB5-OEM1D-1-11 or SBC3-OEM1D-1-11 and double click setup.exe, complete the setup and select I will restart my computer later.
+- Extract the creative softwares (.rar archive) and double click setup.exe, complete the setup and select I will restart my computer later.
 
 - Now extract GenKGA.rar and run GenKGA.bat as administrator, complete the activation.
 
@@ -45,9 +47,23 @@ Go to Settings > Update & Security > For developers > click Sideload apps and cl
 
 - If everything is ok, creative software will launch automatically after the restart. Play a music file and try different presets or settings in the software to ensure that creative effects r working properly.
 
+#### Uninstallation:
+
+- First uninstall Realtek Audio Console from start menu, then uninstall creative software (sbc/thx/x-fi whatever) and finally uninstall 
+realtek audio driver then restart (if possible use [DDU](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=2747) for clean driver uninstallation)
+
+#### Update or Upgrade:
+
+- Uninstall current mod by above then install new driver.
+
+-----
 
 
-![alt text](https://i.imgur.com/2MijIyD.png)
+<p align="center"><img src=https://www.creative.com/oem/images/software/SBXpro_studio_animated.gif></p>
+
+<p align="center"><img src=https://www.creative.com/oem/images/software/mb3_feature1.gif></p>
+
+<p align="center"><img src=https://i.imgur.com/2MijIyD.png></p>
 
 ![alt text](https://www.creative.com/oem/images/software/md5_profile_red.png)
 
